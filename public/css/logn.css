@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.lodn-sec{
+    background-image: url('../img/img1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.logn-contaner{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    padding: 20px;
+}
+.lodn-card{
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+    /* box-shadow: inset 22px 22px black; */
+    /* box-shadow: inset -1px 1px  black; */
+}
+.logn-hed{
+    border-bottom: 1px solid rgb(151, 148, 148);
+}
+.logn-hed h1{
+    color: rgb(122, 122, 122);
+}
+form{
+    margin-top: 20px;
+    padding: 10px;
+}
+form input{
+    width: 100%;
+    border: none;
+    padding-top: 10px; 
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(151, 148, 148);
+    outline: none;
+}
+form  p{
+    text-align: start;
+    margin: 10px;
+}
+
+form  p a{
+    text-decoration: none;
+}
+form .login-btn {
+    margin: 40px;
+} 
+form .login-btn button{
+    padding: 10px 50px;
+    border: 1px solid ;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: rgb(211, 208, 208);
+    color: rgb(65, 62, 62);
+    width: 100%;
+    box-shadow: 0px 0px 2px black;
+}
+span{
+    color:red;
+}
