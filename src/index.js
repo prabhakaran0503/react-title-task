@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import  User from './State'
 import Sign from './Usestate';
 import Lognpage from './logn-page';
+import Register from './Register';
 
 
 
@@ -17,6 +18,7 @@ root.render(
     <User/>
     <Sign/>
     <Lognpage />
+    <Register />
   </React.StrictMode>
 );
 
