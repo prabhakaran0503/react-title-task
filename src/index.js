@@ -7,7 +7,7 @@ import  User from './State'
 import Sign from './Usestate';
 import Lognpage from './logn-page';
 import Register from './Register';
-
+import Table_ad from './Table-add';
 
 
 
@@ -19,6 +19,7 @@ root.render(
     <Sign/>
     <Lognpage />
     <Register />
+    <Table_ad/>
   </React.StrictMode>
 );
 
